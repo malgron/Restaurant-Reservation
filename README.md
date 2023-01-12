@@ -60,6 +60,8 @@ As a restaurant manager<br/>
 I want a reservation to have a status of either booked, seated, or finished<br/>
 so that I can see which reservation parties are seated, and finished reservations are hidden from the dashboard.
 
+![finish a reservation](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/finished.PNG)
+
 ### US-07 Search for a reservation by phone number
 
 As a restaurant manager<br/>
@@ -75,4 +77,5 @@ As a restaurant manager<br/>
 I want to be able to modify a reservation if a customer calls to change or cancel their reservation<br/>
 so that reservations are accurate and current.
 
+![edit reservation option](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/search02.PNG)
 
