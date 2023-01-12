@@ -20,6 +20,7 @@
 Create a new reservation when a customer calls<br/>
 so that I know how many customers will arrive at the restaurant on a given day.
 
+![dashboard](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/dashboard.PNG)
 
 
 ### US-02 Create reservation on a future, working date
@@ -28,14 +29,7 @@ As a restaurant manager<br/>
 I only want to allow reservations to be created on a day when we are open<br/>
 so that users do not accidentally create a reservation for days when we are closed.<br/>
 
-#### Acceptance criteria
-
-1. The `/reservations/new` page will display an error message with `className="alert alert-danger"` if any of the following constraints are violated:
-   - The reservation date is a Tuesday as the restaurant is closed on Tuesdays.
-   - The reservation date is in the past. Only future reservations are allowed.
-1. The `/reservations` API will have the same validations as above and will return 400, along with an informative error message, when a validation error happens.
-
-
+![future reservation error testing](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/user_story_01.PNG)
 
 ### US-03 Create reservation within eligible timeframe
 
@@ -43,12 +37,16 @@ As a restaurant manager<br/>
 I only want to allow reservations to be created during business hours, up to 60 minutes before closing<br/>
 so that users do not accidentally create a reservation for a time we cannot accommodate.
 
+![new reservation](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/new_reservation.PNG)
+
 ### US-04 Seat reservation
 
 As a restaurant manager, <br/>
 When a customer with an existing reservation arrives at the restaurant<br/>
 I want to seat (assign) their reservation to a specific table<br/>
 so that I know which tables are occupied and free.
+
+![seat reservation](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/search02.PNG)
 
 ### US-05 Finish an occupied table
 
@@ -67,6 +65,8 @@ so that I can see which reservation parties are seated, and finished reservation
 As a restaurant manager<br/>
 I want to search for a reservation by phone number (partial or complete)<br/>
 so that I can quickly access a customer's reservation when they call about their reservation.<br/>
+
+![reservation search](https://github.com/malgron/Restaurant-Reservation/blob/main/readme-images/search01.PNG)
 
 
 ### US-08 Change an existing reservation
