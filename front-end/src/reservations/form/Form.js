@@ -148,6 +148,7 @@ function Form({ method }) {
                 <input
                   id="mobile_number"
                   type="tel"
+                  pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   name="mobile_number"
                   className="form-control"
                   onChange={handleChange}
