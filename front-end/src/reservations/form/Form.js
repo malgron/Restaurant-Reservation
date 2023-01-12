@@ -147,7 +147,7 @@ function Form({ method }) {
               <div className="col-7 pt-2">
                 <input
                   id="mobile_number"
-                  type="text"
+                  type="tel"
                   name="mobile_number"
                   className="form-control"
                   onChange={handleChange}
