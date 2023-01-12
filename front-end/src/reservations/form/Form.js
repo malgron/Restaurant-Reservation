@@ -149,6 +149,7 @@ function Form({ method }) {
                   id="mobile_number"
                   type="tel"
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                  placeholder="123-456-6789"
                   name="mobile_number"
                   className="form-control"
                   onChange={handleChange}
